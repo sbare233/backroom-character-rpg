@@ -1,0 +1,8 @@
+0 100 100 0 0 100 2001 man
+buffname 1 buffname1 1
+0 qiaogun501 1 duanjian508 
+0 0.5 1 0.0001
+500 移动 1 1
+结束
+300 打开面板
+结束
