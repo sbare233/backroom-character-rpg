@@ -96,7 +96,7 @@ public class lvl2 {
 		int dx=game.mapx-lmapx;
 		int dy=game.mapy-lmapy;
 		if(dy==-1) {
-			new p(1);
+			//new p(1);
 			for(int j=0;j<4;j++) {sg[2][j]=sg[1][j];sg[1][j]=sg[0][j];}
 			int n=r.nextInt(4);
 			for(int j=0;j<n;j++) {sg[0][j]=r.nextInt(97);}

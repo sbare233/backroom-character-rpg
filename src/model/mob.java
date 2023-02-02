@@ -135,7 +135,7 @@ public class mob {
 //		}
 	}
 	public void react() {
-		new p(1);
+		//new p(1);
 		try {act.get("打开面板").flags.put("openf",1);}catch(Exception e) {}
 		try {act.get("右键效果").flags.put("lreffectf",1);}catch(Exception e) {}
 	}

@@ -1,0 +1,14 @@
+{
+     "launch": {
+          "configurations": [
+              {
+                  "name": "Java: Current File",
+                  "type": "java",
+                  "request": "launch",
+                  "mainClass": "br.ui", // 这里需要改成自己的类路径
+                  "vmArgs": "-Xmx2048m -XX:+UseG1GC -Dfile.encoding=utf-8" // 需要设置的参数，将JVM的栈内存降至256K
+              }
+          ]
+     },
+     "java.home":"C:\\Program Files\\Java\\jdk1.8.0_05"
+}

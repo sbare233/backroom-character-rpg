@@ -38,7 +38,7 @@ public class qi507 {
 	}
 	@SuppressWarnings("unchecked")
 	public void unuse(wupin w,int i) {
-		new p(1);
+		//new p(1);
 		if(tl!=null)
 			tl.stop();
 		qif=0;

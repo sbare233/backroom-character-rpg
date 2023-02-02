@@ -84,7 +84,7 @@ public class container extends Pane {
 			sub.container.its[k].setBackground(ui.backlg);
 			sub.container.its[k].setOnMouseClicked(e2 -> {
 				br.game.onshow = w;
-				new p(br.game.onshow.name+"\n");
+				//new p(br.game.onshow.name+"\n");
 				sub.wupininfo.infov = br.game.onshow.getAll();
 				wupininfo.posf=2;
 				ui.wupininfo = new wupininfo();
